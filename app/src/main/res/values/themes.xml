@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default RecyclerView style -->
+    <style name="DefaultRecyclerViewStyle">
+        <item name="layoutManager">androidx.recyclerview.widget.GridLayoutManager</item>
+        <item name="android:orientation">vertical</item>
+        <item name="spanCount">2</item>
+        <!-- Optional: other RecyclerView attributes -->
+        <item name="android:clipToPadding">false</item>
+        <item name="android:fastScrollEnabled">true</item>
+    </style>
+
+    <!-- Your app theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Apply default RecyclerView style -->
+        <item name="recyclerViewStyle">@style/DefaultRecyclerViewStyle</item>
+    </style>
+</resources>
