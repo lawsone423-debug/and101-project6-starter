@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RecyclerView Demo</string>
+ <string name="title_recycler_view">My Item List</string>
+    
+    <string name="desc_recycler_item">List item showing title and description</string>
+    <string name="item_title_1">First Item</string>
+    <string name="item_title_2">Second Item</string>
+    <string name="item_title_3">Third Item</string>
+
+  
+ <string name="item_desc_1">This is the description for the first item.</string>
+    <string name="item_desc_2">This is the description for the second item.</string>
+    <string name="item_desc_3">This is the description for the third item.</string>
+
+ 
+    <string name="btn_add_item">Add Item</string>
+    <string name="btn_remove_item">Remove Item</string>
+
+   
+    <string name="msg_empty_list">No items available. Please add some.</string>
+</resources>
+
+   
+
+  
+    
+   
+   
